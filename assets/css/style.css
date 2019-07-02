@@ -1,0 +1,60 @@
+#choiceList{
+    margin: 10px;
+}
+#quizList,
+button,
+h1{
+    font-family: 'PepsiCyrLatRegular'; 
+    font-weight: normal; 
+    font-style: italic; 
+    color: dodgerblue;
+    text-align: center;
+}
+#display{
+    font-size: 30px;
+    font-family: 'PepsiCyrLatRegular'; 
+    font-weight: normal; 
+    font-style: italic; 
+    color: dodgerblue;
+    text-align: center;
+}
+body{
+    background-image: url(https://www.streetmusclemag.com/image/2018/09/robs-car-movie-review-need-for-speed-2018-09-03_22-17-39_711234-1440x670.jpg);
+    background-size: cover;
+}
+/* #wrapper{
+    align-items: center;
+} */
+/* #startButton{
+    background-color: #547882;
+    border: none;
+    color: dodgerblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+} */
+button{
+    background-color: #547882;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.start{
+    text-align: center;
+}
+input{
+    background-color: #547882;
+    border: none;
+    color: dodgerblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
