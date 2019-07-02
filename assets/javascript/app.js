@@ -1,6 +1,6 @@
 var correct = 0;
     var incorrect = 0;
-        var time = 5;
+        var time = 30;
 var intervalId;
 $('#display').hide();
 $(document).on("click", "#startButton", function(event){
@@ -50,9 +50,10 @@ function countdown() {
 
     else if (time === 0) {
         console.log("game over");
-        timeISUP();
+        // timeISUP();
         clearInterval(intervalId);
         $("#quizList").empty(" ");
+        $("#quizList").append("<h1>" + "Game Over " +"</h1>");
         $("#quizList").append("<h2>" + "Your Correct Answers: " + correct +"</h2>");
         $("#quizList").append("<h2>" + "Your Incorrect Answers: " + incorrect +"</h2>");
         $('#display').hide();
@@ -91,6 +92,6 @@ $(document).on("click", ".questionButton", function(){
 })
 
 function timeISUP (){
-    $('#quizList').append("<h2>" + "correct answers:" + correct + incorrect + "</h2>");
+    // $('#quizList').append("<h2>" + "correct answers:" + correct + incorrect + "</h2>");
     //   alert(correct);  
     }
